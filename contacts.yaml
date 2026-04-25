@@ -1,0 +1,17 @@
+contacts:
+- id: cedric
+  name: Cey
+  email: cey@neant.be
+  description: Main user and partner
+  tags:
+  - friend
+  - work
+  notes: Contact à utiliser pour les communications privé
+- id: lena
+  name: Lena
+  email: lena@neant.be
+  description: AI agent colleague
+  tags:
+  - ai-agent
+  - work
+  notes: ''
