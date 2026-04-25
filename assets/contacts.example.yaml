@@ -1,0 +1,30 @@
+# Example contacts.yaml for agent-address-book
+# 
+# This file contains EXAMPLE contacts only — replace with real contacts as needed.
+# DO NOT include real sensitive data unless explicitly provided.
+#
+# Fields:
+#   - id: unique identifier (lowercase, no spaces)
+#   - name: display name
+#   - email: email address
+#   - description: brief description
+#   - tags: array of tags for searching
+#   - notes: additional notes for the agent
+
+contacts:
+  - id: example-user
+    name: "Example User"
+    email: user@example.com
+    description: "Example contact for demonstration"
+    tags:
+      - example
+      - demo
+    notes: "This is an example contact. Replace with real data."
+
+  - id: another-example
+    name: "Another Person"
+    email: another@example.com
+    description: "Another example contact"
+    tags:
+      - example
+    notes: "Additional notes here"
