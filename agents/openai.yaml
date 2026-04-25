@@ -1,0 +1,15 @@
+# OpenAI agent configuration for agent-address-book
+# This allows AI agents to discover and use the address book
+
+# Tool definitions for OpenAI function calling (if supported)
+tools: []
+
+# Or use as a skill reference in other contexts
+version: "1.0.0"
+skill_path: "agent-address-book"
+commands:
+  - list
+  - find
+  - email
+  - show
+  - upsert
